@@ -22,4 +22,10 @@ bhv herhaling [x]
 bhv cursus voor bedrijven[x] 
 Ehbo aan kinderen [x]
 vca examens[x]
-vca voor werknemers []
+vca voor werknemers [x]
+
+
+Show curriculum below Course description	Show curriculum below course description @ LMS settings
+
+
+Aantal studenten er uit gehaald d.m.v. css, Thema aanpassen > custom css >   .single-course.c2 .course_header #item-header-content .students, { display: none;}
