@@ -29,3 +29,8 @@ Show curriculum below Course description	Show curriculum below course descriptio
 
 
 Aantal studenten er uit gehaald d.m.v. css, Thema aanpassen > custom css >   .single-course.c2 .course_header #item-header-content .students, { display: none;}
+
+
+
+
+Prijs rechts uitlijnen en de tekst eerder laten afronden
