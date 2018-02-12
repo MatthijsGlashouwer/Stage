@@ -56,4 +56,12 @@ Laatste nieuws css aangepast
 
 
 
-Foyer installed
+Foyer installed   
+
+
+table {
+    width: 85%!important;
+    border-collapse: collapse;
+    margin-left: 30px;
+    margin-top: -40px;
+}
