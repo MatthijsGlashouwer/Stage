@@ -72,3 +72,39 @@ table {
     margin-left: 30px;
     margin-top: -40px;
 }
+
+
+
+
+
+
+
+
+-2,5rem
+
+
+
+
+
+
+
+
+
+
+<nav class="navigation">
+<a class="cs-click-menu"><i class="fa fa-bars"></i></a>
+<?php px_navigation('main-menu'); ?>
+</nav>
+
+
+
+
+
+<nav>
+	<ul class="nav navbar-nav">
+      <li class="active"><a href="#">W1</a></li>
+      <li><a href="#">W2</a></li>
+      <li><a href="#">W3</a></li>
+      <li><a href="#">W4</a></li>
+    </ul>
+</nav>
