@@ -200,3 +200,20 @@ nav in elke pagina en dan hc active class in nav
   MO17 ST
   MO13 ST 
   MO11 ST
+
+
+
+
+
+
+
+
+
+
+
+  table {
+    width: 85% !important;
+    border-collapse: collapse;
+    margin-left: 30px;
+    margin-top: -62px;
+}
