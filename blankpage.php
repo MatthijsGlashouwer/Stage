@@ -41,10 +41,11 @@ font-family: Arial, Helvetica, sans-serif;
 color: #15975b;
 }
 body {
-	background: #fff;
+    background: #fff;
 }
 h1 {
-	color: #fff!important;
+    color: #fff!important;
+    margin-top: 100px!important;
 }
 .main-header {
     height: 150px;
@@ -55,7 +56,7 @@ h1 {
 }
 
 .Own {
-	color: #e95842;
+    color: #e95842;
 }
 .sponsors {
     width: 200px;
@@ -97,15 +98,10 @@ h1 {
         <div class="logo">
             <img src="http://narrowcasting.vvworkum.nl/assets/img/logo.png">
         </div>
-<nav class="navigation">
-	<a class="cs-click-menu"><i class="fa fa-bars"></i></a>
-	<?php px_navigation('main-menu'); ?>
-	
-</nav>
-<?php the_title( '<h1>', '</h1>' ); ?>
-
-
-
+            <?php px_navigation('second-menu'); ?>
+        <div class="title">
+            <?php the_title( '<h1>', '</h1>' ); ?>
+        </div>
 </header>
 <body>
 <aside class="sponsors">

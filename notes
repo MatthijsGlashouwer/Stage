@@ -128,3 +128,37 @@ Functions.php edit
 function px_register_my_menus() {
 	register_nav_menus(array('main-menu' => __('Main Menu','Kings club') ) ); 
 }
+
+
+
+
+
+
+
+nav in elke pagina en dan hc active class in nav
+
+
+
+
+
+
+
+
+
+  function px_register_my_menus() {
+    register_nav_menus(
+    array(
+    'main-menu'  => __('Main Menu','Kings Club'),
+    'second-menu' => __('Second Menu','ZWF')
+ )  );
+  }
+
+
+
+
+  <?php px_navigation('second-menu'); ?>
+
+
+
+
+  2e menu toegevoegd in de functions, bovenstaande regel toegevoegd aan de page-cleanpage header
