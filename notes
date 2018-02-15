@@ -99,26 +99,6 @@ table {
 
 
 
-
-<nav>
-	<ul class="nav navbar-nav">
-      <li class="active"><a href="#">W1</a></li>
-      <li><a href="#">W2</a></li>
-      <li><a href="#">W3</a></li>
-      <li><a href="#">W4</a></li>
-    </ul>
-</nav>
-
-
-
-
-
-
-
-
-
-
-
 Functions.php edit
 
 
@@ -128,21 +108,6 @@ Functions.php edit
 function px_register_my_menus() {
 	register_nav_menus(array('main-menu' => __('Main Menu','Kings club') ) ); 
 }
-
-
-
-
-
-
-
-nav in elke pagina en dan hc active class in nav
-
-
-
-
-
-
-
 
 
   function px_register_my_menus() {
@@ -158,16 +123,10 @@ nav in elke pagina en dan hc active class in nav
 
   <?php px_navigation('second-menu'); ?>
 
-
-
-
   2e menu toegevoegd in de functions, bovenstaande regel toegevoegd aan de page-cleanpage header\
 
 
-
-
   margin-left: 250px !important;
-
 
 
   workum vr1  st
@@ -202,18 +161,13 @@ nav in elke pagina en dan hc active class in nav
   MO11 ST
 
 
-
-
-
-
-
-
-
-
-
   table {
     width: 85% !important;
     border-collapse: collapse;
     margin-left: 30px;
     margin-top: -62px;
 }
+
+BHVFirstaid
+
+  Cursussen toevoegen aan menuitem curssusen
