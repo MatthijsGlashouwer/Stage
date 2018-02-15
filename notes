@@ -129,36 +129,6 @@ function px_register_my_menus() {
   margin-left: 250px !important;
 
 
-  workum vr1  st
-  workum vr1 prog
-
-  wz123 st
-  wz1 prog
-  wz2 prog
-  wz3 prog
-  wz4 st
-  wz4 prog
-
-  JO19 stand
-  JO171 st
-  jo 172 st
-  jo15-1 st
-  jo15-2 st
-  jo15-3 st
-  jo13-1 st
-  jo13-2 ST
-  jo13-3 st
-  jo11-1 st
-  jo11-2 st
-  jo11-3 st
-  jo11-4g st
-  jo9-1 st
-  jo9-2 st
-  jo9-3 st
-  jo9-4g st
-  MO17 ST
-  MO13 ST 
-  MO11 ST
 
 
   table {
@@ -171,3 +141,9 @@ function px_register_my_menus() {
 BHVFirstaid
 
   Cursussen toevoegen aan menuitem curssusen
+
+
+
+
+
+https://github.com/jsdecena/laracom/wiki/Installation        Laravel e-commerce system
