@@ -1,0 +1,428 @@
+# Translation of Themes - Garfunkel in Dutch
+# This file is distributed under the same license as the Themes - Garfunkel package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-09-27 16:48:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nl\n"
+"Project-Id-Version: Themes - Garfunkel\n"
+
+#. Theme Name of the plugin/theme
+msgid "Garfunkel"
+msgstr "Garfunkel"
+
+#. Description of the plugin/theme
+msgid "Garfunkel is a stylish and responsive Pinterest-style theme with Masonry layout. It features responsive and retina-ready design, support for six post formats (including a gallery slideshow), six custom widgets, two page templates, Jetpack Infinite Scroll support, editor styling and translation-ready code. Included translations: Swedish/svenska."
+msgstr "Garfunkel is een stijlvol en responsive thema in Pinterest-stijl met Masonry layout. Het beschikt over een responsive en retina-klaar ontwerp, ondersteuning voor zes berichtformaten (met inbegrip van een galerij slideshow), zes eigen widgets, twee paginatemplates, Jetpack Infinite Scroll ondersteuning, een aangepaste editor vormgeving en vertaalbestanden. Inbegrepen vertalingen: Zweeds / Svenska."
+
+#: widgets/video-widget.php:7
+msgid "Video Widget"
+msgstr "Video Widget"
+
+#: widgets/search-form.php:7
+msgid "Search Form"
+msgstr "Zoekformulier"
+
+#: widgets/recent-posts.php:7
+msgid "Recent Posts"
+msgstr "Recente berichten"
+
+#: widgets/recent-comments.php:7
+msgid "Recent Comments"
+msgstr "Recente reacties"
+
+#: widgets/flickr-widget.php:79
+msgid "Number of images to display"
+msgstr "Aantal afbeeldingen weer te geven"
+
+#: widgets/dribbble-widget.php:11
+msgid "Dribbble Widget"
+msgstr "Dribbble Widget"
+
+#: widgets/flickr-widget.php:7
+msgid "Flickr Widget"
+msgstr "Flickr Widget"
+
+#. Template Name of the plugin/theme
+msgid "Full width template"
+msgstr "Volledige breedte template"
+
+#: widgets/recent-comments.php:108 widgets/recent-posts.php:148
+msgid "Defaults to 5 if empty"
+msgstr "Standaard is 5 indien leeg"
+
+#: widgets/recent-comments.php:106
+msgid "Number of comments to display:"
+msgstr "Aantal reacties om weer te geven:"
+
+#: widgets/recent-posts.php:146
+msgid "Number of posts to display:"
+msgstr "Aantal berichten weergeven:"
+
+#. Template Name of the plugin/theme
+msgid "Archive template"
+msgstr "archief template"
+
+#: widgets/recent-posts.php:6
+msgid "Displays recent blog entries."
+msgstr "Toont recente blogberichten."
+
+#: widgets/search-form.php:6
+msgid "Displays a search form."
+msgstr "Toont een zoekformulier."
+
+#: widgets/video-widget.php:6
+msgid "Displays a video of your choosing."
+msgstr "Toont een video naar keuze."
+
+#: widgets/recent-comments.php:51
+msgid "posted"
+msgstr "Gepubliceerd"
+
+#: widgets/recent-comments.php:101
+msgid "Title:"
+msgstr "Titel:"
+
+#: widgets/dribbble-widget.php:84
+msgid "Dribbble username"
+msgstr "Dribbble gebruikersnaam"
+
+#: widgets/dribbble-widget.php:90
+msgid "Number of images to display:"
+msgstr "Aantal afbeeldingen om weer te geven:"
+
+#: widgets/flickr-widget.php:73
+msgid "Flickr ID (use <a target=\"_blank\" href=\"http://www.idgettr.com\">idGettr</a>)"
+msgstr "Flickr ID (use <a target=\"_blank\" href=\"http://www.idgettr.com\">idGettr</a>)"
+
+#: widgets/flickr-widget.php:6
+msgid "Displays your latest Flickr photos."
+msgstr "Toont je laatste Flickr-foto's."
+
+#: widgets/recent-comments.php:6
+msgid "Displays recent comments with user avatars."
+msgstr "Toont recente reacties met avatars van gebruikers."
+
+#: widgets/recent-comments.php:51
+msgid "Comment to"
+msgstr "Reacties op"
+
+#: widgets/dribbble-widget.php:78 widgets/flickr-widget.php:67
+#: widgets/recent-posts.php:141 widgets/search-form.php:49
+#: widgets/video-widget.php:67
+msgid "Title"
+msgstr "Titel"
+
+#: template-archives.php:119
+msgid "Archives by Day"
+msgstr "Archief volgens Dag"
+
+#: widgets/dribbble-widget.php:10
+msgid "Displays your latest Dribbble photos."
+msgstr "Toont je laatste Dribbble foto's."
+
+#: template-archives.php:113
+msgid "Archives by Month"
+msgstr "Archieven per maand"
+
+#: template-archives.php:107
+msgid "Archives by Year"
+msgstr "Archief volgens Jaar"
+
+#: template-archives.php:101
+msgid "Contributors"
+msgstr "Contributors"
+
+#: template-archives.php:90
+msgid "View all posts in %s"
+msgstr "Alle berichten bekijken in %s"
+
+#: template-archives.php:77
+msgid "Archives by Categories"
+msgstr "Archief gerangschikt volgens Categorie"
+
+#: template-archives.php:83
+msgid "Archives by Tags"
+msgstr "Archief volgens Tags"
+
+#: template-archives.php:63
+msgid "All Posts"
+msgstr "Alle berichten"
+
+#: single.php:353
+msgid "to"
+msgstr "om"
+
+#: single.php:265
+msgid "Guest"
+msgstr "Gast"
+
+#: single.php:285
+msgid "Posts by"
+msgstr "Berichten van"
+
+#: single.php:353
+msgid "Posted on"
+msgstr "Gepost op"
+
+#: single.php:261
+msgid "Contributor"
+msgstr "Schrijver"
+
+#: single.php:333
+msgid "Comments by"
+msgstr "Reacties door"
+
+#: single.php:263
+msgid "Subscriber"
+msgstr "Abonnee"
+
+#: single.php:259
+msgid "Author"
+msgstr "Auteur"
+
+#: single.php:257
+msgid "Editor"
+msgstr "Editor"
+
+#: single.php:255
+msgid "Administrator"
+msgstr "Beheerder"
+
+#: single.php:229 single.php:410 single.php:411
+msgid "Next post"
+msgstr "Volgend bericht"
+
+#: single.php:228
+msgid "Next post:"
+msgstr "Volgend bericht:"
+
+#: single.php:218 single.php:399 single.php:400
+msgid "Previous post"
+msgstr "Vorig bericht"
+
+#: single.php:172
+msgid "Author info"
+msgstr "Auteur Informatie"
+
+#: single.php:217
+msgid "Previous post:"
+msgstr "Vorig bericht:"
+
+#: single.php:166
+msgid "Post info"
+msgstr "Bericht info"
+
+#: single.php:160
+msgid "Comments"
+msgstr "Reacties"
+
+#: single.php:137
+msgid "Pages:"
+msgstr "Pagina&#39;s:"
+
+#: searchform.php:3
+msgid "Search form"
+msgstr "Zoekformulier"
+
+#: search.php:47
+msgid "No results. Try again, would you kindly?"
+msgstr "Geen resultaten. Zou je zo vriendelijk willen zijn om het opnieuw te proberen?"
+
+#: search.php:9
+msgid "Search results"
+msgstr "Zoekresultaten"
+
+#: index.php:17
+msgid "Page %s of %s"
+msgstr "Pagina %s van %s"
+
+#: image.php:56 page.php:77 single.php:423 template-archives.php:157
+#: template-fullwidth.php:83
+msgid "We couldn't find any posts that matched your query. Please try again."
+msgstr "We konden helaas geen berichten opgegeven in je zoekopdracht vinden. Probeer het opnieuw."
+
+#: header.php:106
+msgid "Close"
+msgstr "Sluiten"
+
+#: functions.php:472
+msgid "Accent Color"
+msgstr "Accentkleur"
+
+#: header.php:105
+msgid "Menu"
+msgstr "Menu"
+
+#: functions.php:444 functions.php:480
+msgid "Logo"
+msgstr "Logo"
+
+#: functions.php:436
+msgid "Garfunkel Options"
+msgstr "Garfunkel Opties"
+
+#: functions.php:439
+msgid "Allows you to customize settings for Garfunkel."
+msgstr "Hiermee kun je de instellingen aanpassen voor Garfunkel."
+
+#: widgets/video-widget.php:73
+msgid "Video URL"
+msgstr "URL"
+
+#: functions.php:412
+msgid "Reply"
+msgstr "Beantwoorden"
+
+#: functions.php:402
+msgid "Awaiting moderation"
+msgstr "In afwachting van moderatie"
+
+#: functions.php:372 functions.php:410 page.php:49 single.php:111
+#: template-archives.php:57 template-fullwidth.php:55
+msgid "Edit"
+msgstr "Bewerken"
+
+#: functions.php:372
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:125
+msgid "Widgets in this area will be shown in the right column in the footer  of single posts and pages."
+msgstr "Widgets in dit gebied zullen worden getoond aan de rechterkant in de voettekst van een afzonderlijk bericht en pagina."
+
+#: functions.php:105
+msgid "Footer A"
+msgstr "Voettekst A"
+
+#: functions.php:114
+msgid "Footer B"
+msgstr "Footer B"
+
+#: functions.php:123
+msgid "Footer C"
+msgstr "Footer C"
+
+#: functions.php:107
+msgid "Widgets in this area will be shown in the left column in the footer of single posts and pages."
+msgstr "Widgets in dit gebied zullen worden getoond aan de linkerkant in de voettekst van een afzonderlijk bericht en pagina. "
+
+#: functions.php:116
+msgid "Widgets in this area will be shown in the middle column in the footer  of single posts and pages."
+msgstr "Widgets in dit gebied zullen worden getoond in de kolom in het midden in de voettekst van een afzonderlijk bericht en pagina. "
+
+#: functions.php:43
+msgid "Social Menu"
+msgstr "Sociaal menu"
+
+#: functions.php:42
+msgid "Primary Menu"
+msgstr "Primair menu"
+
+#: footer.php:5
+msgid "Theme by"
+msgstr "Thema door"
+
+#: content-image.php:9
+msgid "Sticky post"
+msgstr "Sticky berichten"
+
+#: functions.php:304
+msgid "comments to"
+msgstr "opmerkingen"
+
+#: comments.php:84
+msgid "Comment"
+msgstr "Reactie"
+
+#: comments.php:80
+msgid "Your email address will not be published."
+msgstr "Het e-mailadres wordt niet gepubliceerd."
+
+#: comments.php:73
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#: comments.php:61
+msgid "Newer Comments"
+msgstr "Nieuwere reacties"
+
+#: comments.php:59
+msgid "Older Comments"
+msgstr "Oudere reacties"
+
+#: comments.php:22
+msgid "Add yours"
+msgstr "Je toevoegingen"
+
+#: comments.php:41
+msgid "Pingback"
+msgid_plural "Pingbacks"
+msgstr[0] "Pingback"
+msgstr[1] "Pingbacks"
+
+#: comments.php:16
+msgid "comment"
+msgid_plural "comments"
+msgstr[0] "Reactie"
+msgstr[1] "Reacties"
+
+#: archive.php:56 index.php:51 search.php:33
+msgid "Newer posts"
+msgstr "Nieuwere berichten"
+
+#: archive.php:54 index.php:49 search.php:31
+msgid "Older posts"
+msgstr "Oudere berichten"
+
+#: archive.php:23
+msgid "Archive"
+msgstr "Archief"
+
+#: archive.php:21
+msgid "Author:"
+msgstr "Auteur:"
+
+#: archive.php:18
+msgid "Tag:"
+msgstr "Tag:"
+
+#: archive.php:14
+msgid "Year:"
+msgstr "Jaar:"
+
+#: archive.php:16
+msgid "Category:"
+msgstr "Categorie:"
+
+#: archive.php:12
+msgid "Month:"
+msgstr "Maand:"
+
+#: archive.php:10
+msgid "Date:"
+msgstr "Datum:"
+
+#: 404.php:21
+msgid "It seems like you have tried to open a page that doesn't exist. It could have been deleted, moved, or it never existed at all. You are welcome to search for what you are looking for with the form below."
+msgstr "Het lijkt alsof je hebt geprobeerd een pagina te openen die niet bestaat. Deze kan zijn verwijderd, verplaatst of heeft nooit bestaan. Je bent van harte welkom om te zoeken via onderstaand formulier."
+
+#: 404.php:15
+msgid "Error 404"
+msgstr "Fout 404 "
+
+#. Theme URI of the plugin/theme
+msgid "http://www.andersnoren.se/teman/garfunkel-wordpress-theme/"
+msgstr "http://www.andersnoren.se/teman/garfunkel-wordpress-theme/"
+
+#. Author of the plugin/theme
+msgid "Anders Norén"
+msgstr "Anders Norén"
+
+#. Author URI of the plugin/theme
+msgid "http://www.andersnoren.se"
+msgstr "http://www.andersnoren.se"

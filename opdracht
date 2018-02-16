@@ -1,0 +1,37 @@
+plugin die in de footer het logo van ZWF verwerkt rechts onderin
+
+
+
+doorzichtige afbeelding die de kleur pakt vanuit de footer van de pagina
+
+
+
+
+
+positie van de afbeelding zelf bepalen, maar wel aan de rechterkant
+
+
+
+
+	footer.php aanpassen, opletten dat het de css niet aanpast
+
+
+
+	portfolio bekijken op zwf-ontwerp.nl en deze sites checken of ze het nog goed doen/checken op fouten
+
+
+
+
+	let theme know to go through other .php file before going to footer.php
+
+
+	functions.php
+
+
+
+footer putter installed.
+
+	Create link, create category > put image
+
+
+	adds area to theme, credibility footer, put trademarks widget in > 
