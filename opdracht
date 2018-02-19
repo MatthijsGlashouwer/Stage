@@ -31,7 +31,6 @@ positie van de afbeelding zelf bepalen, maar wel aan de rechterkant
 
 footer putter installed.
 
-	Create link, create category > put image
+	Voegt een widget area toe aan de footer, hier moet een afbeelding blok in gesleept worden  en vervolgens moet het zwf logo geselecteerd worden.
 
-
-	adds area to theme, credibility footer, put trademarks widget in > 
+	custom css >   .zwflogo { position: absolute; right:75px; }
