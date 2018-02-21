@@ -13,7 +13,7 @@ positie van de afbeelding zelf bepalen, maar wel aan de rechterkant
 
 
 
-	footer.php aanpassen, opletten dat het de css niet aanpast
+	//footer.php aanpassen, opletten dat het de css niet aanpast
 
 
 
@@ -25,7 +25,7 @@ positie van de afbeelding zelf bepalen, maar wel aan de rechterkant
 	let theme know to go through other .php file before going to footer.php
 
 
-	functions.php
+
 
 
 
@@ -34,3 +34,11 @@ footer putter installed.
 	Voegt een widget area toe aan de footer, hier moet een afbeelding blok in gesleept worden  en vervolgens moet het zwf logo geselecteerd worden.
 
 	custom css >   .zwflogo { position: absolute; right:75px; }
+
+
+insert headers&footers
+	
+	scripts in footer> <div class="zwflogo"><img src="http://localhost/wordpress/wp-content/uploads/2018/02/zwfontwerp.png" style="max-width: 100%; height: auto; position:absolute; right:75px;">  </div>
+
+
+	

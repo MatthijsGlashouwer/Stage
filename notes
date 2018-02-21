@@ -147,3 +147,18 @@ BHVFirstaid
 
 
 https://github.com/jsdecena/laracom/wiki/Installation        Laravel e-commerce system
+
+
+
+
+
+
+
+
+
+.zwflogo {
+  position: absolute;
+  right: 75px;
+}
+
+
