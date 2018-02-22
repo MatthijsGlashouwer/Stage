@@ -41,4 +41,12 @@ insert headers&footers
 	scripts in footer> <div class="zwflogo"><img src="http://localhost/wordpress/wp-content/uploads/2018/02/zwfontwerp.png" style="max-width: 100%; height: auto; position:absolute; right:75px;">  </div>
 
 
-	
+
+
+
+
+<div class="zwflogo"><img src="http://localhost/wordpress/wp-content/uploads/2018/02/ZWFLOGO.png" style="position:absolute; right:75px; opacity: 0.5;"></div>
+<style>.zwflogo {width:100px; position:absolute; right:75px;}</style>
+
+
+	Boxed & full layout

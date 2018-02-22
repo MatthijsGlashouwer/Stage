@@ -14,7 +14,6 @@ Spacers zoals BHV nascholing pagina
 Cursus overzicht aanpassen en hiden
 
 
-
 BHV Nascholing [x] 
 Basale reanimatie en AED (BLS en AED) [x]   
 bhv basis [x] 
@@ -24,47 +23,25 @@ Ehbo aan kinderen [x]
 vca examens[x]
 vca voor werknemers [x]
 
-
 Show curriculum below Course description	Show curriculum below course description @ LMS settings
-
 
 Aantal studenten er uit gehaald d.m.v. css, Thema aanpassen > custom css >   .single-course.c2 .course_header #item-header-content .students, { display: none;}
 
-
-
-
 Prijs rechts uitlijnen en de tekst eerder laten afronden
 
-
-
-
 BHV cursus bedrijven en VCA voor werknemers ontbreekt een prijslijst
-
-
-
-
-
-
-
-
-
 
 DJ taeke foto aanpassen voor responsive
 
 Laatste nieuws css aangepast
 
-
-
-
 Foyer Plugin voor narrowcasting   
-
 
 custom css vvworkum.nl
 
 .Own {
 	color: #e95842;
 }
-
 
 table {
     width: 85%!important;
@@ -73,34 +50,14 @@ table {
     margin-top: -40px;
 }
 
-
-
-
-
-
-
-
 -2,5rem
-
-
-
-
-
-
-
-
-
 
 <nav class="navigation">
 <a class="cs-click-menu"><i class="fa fa-bars"></i></a>
 <?php px_navigation('main-menu'); ?>
 </nav>
 
-
-
-
 Functions.php edit
-
 
 	'narrow' => 'narrowheader'   
 
@@ -108,7 +65,6 @@ Functions.php edit
 function px_register_my_menus() {
 	register_nav_menus(array('main-menu' => __('Main Menu','Kings club') ) ); 
 }
-
 
   function px_register_my_menus() {
     register_nav_menus(
@@ -119,17 +75,12 @@ function px_register_my_menus() {
   }
 
 
-
-
   <?php px_navigation('second-menu'); ?>
 
   2e menu toegevoegd in de functions, bovenstaande regel toegevoegd aan de page-cleanpage header\
 
 
   margin-left: 250px !important;
-
-
-
 
   table {
     width: 85% !important;
@@ -143,22 +94,14 @@ BHVFirstaid
   Cursussen toevoegen aan menuitem curssusen
 
 
-
-
-
 https://github.com/jsdecena/laracom/wiki/Installation        Laravel e-commerce system
-
-
-
-
-
-
-
-
 
 .zwflogo {
   position: absolute;
   right: 75px;
 }
 
+opacity 
 
+
+logo is alleen pijltje
