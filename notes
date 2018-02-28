@@ -158,4 +158,13 @@ beewizer koppelt met de site
 
   wp_post
 
+
+wp_insert_post
+
+
+
   json import
+
+
+  curl php json array
+  
