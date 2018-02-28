@@ -118,3 +118,44 @@ All | yachts | ferriers | etc
 
 
 images op basis van selectie
+
+
+
+
+
+
+
+
+div.wpforms-container-full {
+    margin-bottom: 24px!important;
+    margin-left: 10px!important;
+}
+
+
+
+
+
+2 categorys marne of bogerman
+1 berichtenfeed die uiteindelijk naar 2 websites kan
+diverse feeds 
+
+
+news plugin that uses JSON
+
+beewizer koppelt met de site
+
+
+  category in wordpress in kunnen lezen en aanbieden als json object
+
+
+  json object curlen
+
+
+  export categorieen
+
+  de content die gekoppeld is aan het portaal naar wordpress
+
+
+  wp_post
+
+  json import
