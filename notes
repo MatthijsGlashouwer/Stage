@@ -167,4 +167,64 @@ wp_insert_post
 
 
   curl php json array
+
+
+
+
+
+
+
+<?php
+$a = array('a' => 1, 'b' => 2, 'c' => 3, 'd' => 4, 'e' => 5 );
+
+$data_string = json_encode($a);
+
+$ch = curl_init('http://cvo.education.misp.nl/republish');
+curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+curl_setopt($ch, CURLOPT_POSTFIELDS, $data_string);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+        'Content-Type: application/json',
+        'Content-Length: ' . strlen($data_string))
+);
+
+$result = curl_exec($ch);
+$result = json_decode($result);
+var_dump($result);
+?>
+
+
+
+
+
+
+
+   <section id="blog">
+        <div class="container-fluid">
+            <div class="row">
+                
+                <?php
+                    // Get cURL resource
+                    $curl = curl_init();
+                    // Set some options - we are passing in a useragent too here
+                    curl_setopt_array($curl, array(
+                        CURLOPT_RETURNTRANSFER => 1,
+                        CURLOPT_URL => 'http://cvo.education.misp.nl/republish',
+                        CURLOPT_USERAGENT => 'Codular Sample cURL Request',
+                    ));
+                    // Send the request & save response to $resp
+                    $resp = curl_exec($curl);
+                    // Close request to clear up some resources
+                    curl_close($curl);
+
+                    $resp=json_decode($resp, TRUE);
+                    //var_dump($resp);
+
+                    foreach($resp as $post) {
+                        echo '<h2>' . $post['author']['content'] . '</h2><br />';
+                    }
+                ?>
+            </div><!--END ROW-->
+        </div><!--END CONTAINER FLUID-->
+</section><!--END SECTION BLOG-->
   
