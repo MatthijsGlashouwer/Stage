@@ -194,11 +194,6 @@ var_dump($result);
 ?>
 
 
-
-
-
-
-
    <section id="blog">
         <div class="container-fluid">
             <div class="row">
@@ -228,3 +223,56 @@ var_dump($result);
         </div><!--END CONTAINER FLUID-->
 </section><!--END SECTION BLOG-->
   
+
+
+
+
+
+//  FB feed
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v2.11&appId=142902652519874';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-page" data-href="https://www.facebook.com/bhvfirstaidharlingen/" data-tabs="timeline" data-width="500" data-height="350" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/bhvfirstaidharlingen/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/bhvfirstaidharlingen/">BHV FIRST AID</a></blockquote></div>
+
+
+
+
+
+
+BHV Firstaid
+
+  Menu font iets kleiner
+
+
+
+Contact button gaat nu naar contact pagina
+
+
+
+
+
+
+homepage
+
+
+  ipv contact in slider Direct inschrijven
+
+
+Welkom bij BHV tekst - Blok met USP's
+
+
+
+Cursussen
+
+TESTIMONIALS 3 stuks met bg brandblusser
+
+
+Nieuws 2 blokken
