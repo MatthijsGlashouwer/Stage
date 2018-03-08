@@ -276,3 +276,26 @@ TESTIMONIALS 3 stuks met bg brandblusser
 
 
 Nieuws 2 blokken
+
+
+.widget.pricing {
+    display: none!important;
+}
+
+.single-course.c2 #item-nav div.item-list-tabs#object-nav, .single-course.c3 #item-nav div.item-list-tabs#object-nav, .single-course.c5 #item-nav div.item-list-tabs#object-nav {
+    display: none!important;    
+}
+
+//css toegepast op de cursussen, behalve bij het lesboek
+
+  //Widget Buddypress activated als sidebar bij de cursussen, deze linkt naar het inschrijf formulier.
+
+[button url="/inschrijfformulier" class="other" bg="#ff7419" hover_bg="" size="15px" color="" radius="0px" width="0px" height="0px" target="_self"] Inschrijven[/button]
+
+
+
+BHV info Sidebar beide sidebars en dan overzicht alle cursussen ernaast.
+
+
+
+div om 2 txtblocks heen,, hide author,
