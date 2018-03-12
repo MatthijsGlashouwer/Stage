@@ -299,3 +299,37 @@ BHV info Sidebar beide sidebars en dan overzicht alle cursussen ernaast.
 
 
 div om 2 txtblocks heen,, hide author,
+
+
+
+
+
+
+
+
+
+.voordeel {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    padding-left: 15px !important;
+    background-color: #f7f7f7 !important;
+    border-radius: 10px !important;
+}
+
+.inschrijf {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    padding-left: 15px !important;
+    background-color: #e7f8fd !important;
+    border-radius: 10px !important;
+}
+
+
+
+
+
+contact opnemen! & sterke punten @ inschrijfformulier en de afbeelding weg
+
+
+
+    Input field formulier full width
