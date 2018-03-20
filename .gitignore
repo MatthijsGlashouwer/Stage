@@ -22,3 +22,6 @@ newspaper_86/Newspaper-tf/psd_logo/politics-logo.ai
 *.html
 *.cfg
 *.7z
+newspaper_86/Newspaper-tf/plugins/td-mobile-plugin.zip
+newspaper_86/Newspaper-tf/plugins/td-multi-purpose.zip
+newspaper_86/Newspaper-tf/plugins/td-social-counter.zip
