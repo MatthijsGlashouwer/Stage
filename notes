@@ -525,3 +525,17 @@ C:\Users\administratie-3\AppData\Roaming\Notepad++\plugins\Config\NppFTP\Cache\z
       #EBEBEB!important > important tag weg gehaald
 
 
+@media screen and (max-width: 767px) {
+body .sleek #logo {
+  padding: 15px 15px 25px 15px;
+}
+}
+
+
+
+
+
+
+
+
+
