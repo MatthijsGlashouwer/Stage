@@ -52,11 +52,21 @@ class Kernel extends HttpKernel
      */
     protected $routeMiddleware = [
         'auth' => \Illuminate\Auth\Middleware\Authenticate::class,
+		'cabin' => \App\Http\Middleware\Cabin::class,
+		'cabin-api' => \App\Http\Middleware\CabinApi::class,
+		'cabin-analytics' => \Yab\Cabin\Middleware\CabinAnalytics::class,
+		'cabin-language' => \App\Http\Middleware\CabinLanguage::class,
+		'admin' => \App\Http\Middleware\Admin::class,
+		'active' => \App\Http\Middleware\Active::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
         'cache.headers' => \Illuminate\Http\Middleware\SetCacheHeaders::class,
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+		'admin' => \App\Http\Middleware\Admin::class,
+		'permissions' => \App\Http\Middleware\Permissions::class,
+		'roles' => \App\Http\Middleware\Roles::class,
+		'active' => \App\Http\Middleware\Active::class,		
     ];
 }
