@@ -47,18 +47,73 @@ SuiteCRM dev, Laravel dev & research - BHV Edits na research 24-4-2018
 SuiteCRM dev, Laravel dev & Research 25-4-2018
 API research 26-4-2018
 Plugin fixes & overleg 1-5-2018
-Plugin aanpassingen & laravel research
+Plugin aanpassingen & laravel research 2-5-2018
+
+
+foreach 
+
+if (array_key_exists)
+
+
+
+run through array
+array count  hoger dan 0 GET key en aanmaken 
+
+date En Title
 
 
 
 
+Geüpload naar	Koudum Ferbynt groot succes! empty
+Geüpload naar	Leerlingen BWI meegedaan aan VMBO beroepenwedstrijd Timmeren zwarte source
+Geüpload naar	Metsellessen voor 3e jaars BWI-leerlingen Marne college zwarte source
+Geüpload naar	Solarteam zon in de "zeilen" zwarte source
+Geüpload naar	Winnaars Read2Me zwarte source
+Geüpload naar	Leerlingen van Economie en Ondernemen zwarte source
+Geüpload naar	Veel geleerd op de verkeersmarkt zwarte source
+Geüpload naar	Science Steunpunt weer van start! zwarte source
 
 
+   <section id="blog">
+        <div class="container-fluid">
+            <div class="row">
+                
+                <?php
+                    // Get cURL resource
+                   $curl = curl_init();
 
+					curl_setopt_array($curl, array(
+					  CURLOPT_URL => "http://cvo.education.misp.nl/republish",
+					  CURLOPT_RETURNTRANSFER => true,
+					  CURLOPT_ENCODING => "",
+					  CURLOPT_MAXREDIRS => 10,
+					  CURLOPT_TIMEOUT => 1,
+					  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+					  CURLOPT_CUSTOMREQUEST => "GET",
+					  CURLOPT_HTTPHEADER => array(
+					    "cache-control: no-cache",
+					    "postman-token: 88a0bb3e-4428-95ac-5639-5846ddec831a"
+					  ),
+					));
+					                    // Send the request & save response to $resp
+                    $resp = curl_exec($curl);
+                    // Close request to clear up some resources
+                    curl_close($curl);
 
+                    $resp=json_decode($resp,TRUE);
+                    var_dump($resp);
 
-
-
+                    // foreach($resp as $post) {
+                    	// //echo '<h2>' . $post['author'] . '</h2><br />';
+                        // //echo '<h2.' . $post['source'] . '</h2><br />';
+                    	// //echo '<h3>' . $post['header'] . '</h3><br />';
+                        // //echo '<p>' . $post['content'] . '</p><br />';
+                    // }
+                ?>
+            </div><!--END ROW-->
+        </div><!--END CONTAINER FLUID-->
+</section><!--END SECTION BLOG-->
+  
 
 
 

@@ -292,21 +292,9 @@ Nieuws 2 blokken
 
 [button url="/inschrijfformulier" class="other" bg="#ff7419" hover_bg="" size="15px" color="" radius="0px" width="0px" height="0px" target="_self"] Inschrijven[/button]
 
-
-
 BHV info Sidebar beide sidebars en dan overzicht alle cursussen ernaast.
 
-
-
 div om 2 txtblocks heen,, hide author,
-
-
-
-
-
-
-
-
 
 .voordeel {
     margin-top: 0px !important;
@@ -538,4 +526,17 @@ body .sleek #logo {
 
 
 
+Model aanmaken die koppelt aan de gebruiker waarin de uren staan
 
+user heeft een model die de uren bevat
+user heeft een model die het project bevat ( project model wordt vanuit het CRM aangemaakt)
+
+  koppeling met crm die de projecten geeft
+
+
+
+
+
+consumer key name: Matthijs
+api sleutel: apisleutel
+consumer secret: secret
